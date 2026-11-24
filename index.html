@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="وسيم ابودقة — متجر إلكتروني فاخر للعطور والساعات والحقائب والمجوهرات، بتوصيل سريع ودفع آمن." />
+  <title>وسيم ابودقة | متجر فاخر للعطور والساعات والمجوهرات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- شريط إعلاني -->
+  <div class="announcement">
+    <span>✦</span>
+    شحن مجاني للطلبات فوق 500 ر.س &nbsp;|&nbsp; استرداد خلال 14 يوماً &nbsp;|&nbsp; دفع آمن 100%
+    <span>✦</span>
+  </div>
+
+  <!-- الهيدر -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="وسيم ابودقة - الرئيسية">
+        <span class="logo-mark">✦</span>
+        <span>وسيم <em>ابودقة</em></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a href="#categories">التصنيفات</a>
+        <a href="#products">المنتجات</a>
+        <a href="#offers">العروض</a>
+        <a href="#about">عن المتجر</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" id="searchInput" placeholder="ابحث عن منتج..." aria-label="البحث عن منتج" />
+        </label>
+
+        <button class="icon-btn cart-btn" id="openCart" aria-label="فتح سلة المشتريات">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- الهيرو -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">✦ &nbsp; تسوّق بكل فخامة &nbsp; ✦</p>
+          <h1>أناقة لا تُنسى،<br /><span>لمسة ذهبية</span> في كل تفصيلة</h1>
+          <p class="hero-text">اكتشف مجموعة مختارة بعناية من العطور الفاخرة والساعات والمجوهرات والحقائب، صُممت لمن يبحث عن التميّز والتفرد.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#products">تسوّق الآن <span>←</span></a>
+            <a class="btn btn-outline" href="#categories">تصفّح التصنيفات</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>+٢٠٠</strong><span>منتج فاخر</span></div>
+            <div><strong>+٥٠٠٠</strong><span>عميل سعيد</span></div>
+            <div><strong>٤.٩/٥</strong><span>تقييم العملاء</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="hero-frame">
+            <div class="hero-fallback" aria-hidden="true"><span>✦</span><small>وسيم ابودقة</small></div>
+            <img id="heroImg" src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=80" alt="عطر فاخر بتصميم أنيق" />
+          </div>
+          <div class="hero-badge">
+            <span class="badge-icon">✧</span>
+            <div><strong>مجموعة الموسم</strong><small>خصم يصل إلى 30%</small></div>
+          </div>
+          <div class="hero-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- مميزات -->
+    <section class="trust" id="about">
+      <div class="container trust-grid">
+        <div class="trust-item" data-reveal>
+          <span class="trust-icon">🚚</span>
+          <div><strong>توصيل سريع</strong><small>خلال 1–3 أيام لكل المدن</small></div>
+        </div>
+        <div class="trust-item" data-reveal>
+          <span class="trust-icon">🔒</span>
+          <div><strong>دفع آمن</strong><small>بوابات دفع مشفّرة 100%</small></div>
+        </div>
+        <div class="trust-item" data-reveal>
+          <span class="trust-icon">↩️</span>
+          <div><strong>إرجاع مجاني</strong><small>خلال 14 يوماً من الاستلام</small></div>
+        </div>
+        <div class="trust-item" data-reveal>
+          <span class="trust-icon">✦</span>
+          <div><strong>جودة مضمونة</strong><small>منتجات أصلية بضمان رسمي</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- التصنيفات -->
+    <section class="categories-section" id="categories">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="section-label">تسوّق حسب ذوقك</p>
+            <h2>تصنيفات <span>مختارة</span></h2>
+          </div>
+          <p class="section-desc">كل ما تبحث عنه عن الأناقة في مكان واحد، باختيارات تلائم كل المناسبات.</p>
+        </div>
+        <div class="categories-grid" id="categoriesGrid"></div>
+      </div>
+    </section>
+
+    <!-- المنتجات -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <p class="section-label">أحدث الوصولات</p>
+            <h2>منتجاتنا <span>الفاخرة</span></h2>
+          </div>
+          <p class="section-desc">قطع استثنائية بتفاصيل متقنة وجودة تدوم طويلاً.</p>
+        </div>
+
+        <div class="products-toolbar" data-reveal>
+          <div class="filters" id="filters" role="group" aria-label="تصفية المنتجات"></div>
+          <label class="sort-box">
+            <span>ترتيب:</span>
+            <select id="sortSelect" aria-label="ترتيب المنتجات">
+              <option value="featured">المميزة</option>
+              <option value="price-asc">السعر: من الأقل للأعلى</option>
+              <option value="price-desc">السعر: من الأعلى للأقل</option>
+              <option value="rating">الأعلى تقييماً</option>
+              <option value="discount">أكبر خصم</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="products-grid" id="productsGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>لا توجد منتجات مطابقة لبحثك. جرّب كلمة أخرى ✦</p>
+      </div>
+    </section>
+
+    <!-- العروض / النشرة -->
+    <section class="newsletter" id="offers">
+      <div class="container">
+        <div class="newsletter-card" data-reveal>
+          <div class="newsletter-glow" aria-hidden="true"></div>
+          <div class="newsletter-text">
+            <p class="section-label">عرض حصري</p>
+            <h2>احصل على <span>خصم 10%</span> على طلبك الأول</h2>
+            <p>اشترك في قائمتنا وكن أول من يعرف عن الوصولات الجديدة والعروض الخاصة.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm">
+            <label class="sr-only" for="newsletterEmail">بريدك الإلكتروني</label>
+            <input id="newsletterEmail" type="email" placeholder="بريدك الإلكتروني" required />
+            <button class="btn btn-gold" type="submit">اشترك الآن</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top"><span class="logo-mark">✦</span> <span>وسيم <em>ابودقة</em></span></a>
+        <p>وجهتك الأولى للمنتجات الفاخرة الأصلية، نجمع بين الجودة والأناقة لنمنحك تجربة تسوق استثنائية.</p>
+      </div>
+      <div>
+        <h3>روابط سريعة</h3>
+        <a href="#categories">التصنيفات</a>
+        <a href="#products">المنتجات</a>
+        <a href="#offers">العروض</a>
+        <a href="#about">عن المتجر</a>
+      </div>
+      <div>
+        <h3>خدمة العملاء</h3>
+        <a href="#contact">تواصل معنا</a>
+        <a href="#contact">الشحن والإرجاع</a>
+        <a href="#contact">الأسئلة الشائعة</a>
+        <a href="#contact">ضمان المنتجات</a>
+      </div>
+      <div>
+        <h3>تابعنا</h3>
+        <p>تابعنا على وسائل التواصل ليصلك كل جديد.</p>
+        <div class="socials">
+          <a href="#contact" aria-label="إنستغرام">◎</a>
+          <a href="#contact" aria-label="تويتر">𝕏</a>
+          <a href="#contact" aria-label="فيسبوك">f</a>
+          <a href="#contact" aria-label="سناب شات">◉</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 وسيم ابودقة. جميع الحقوق محفوظة.</span>
+      <span>صُنع بكل حب واهتمام بالتفاصيل ✦</span>
+    </div>
+  </footer>
+
+  <!-- طبقة خلفية للسلة والنوافذ -->
+  <div class="overlay" id="overlay" hidden></div>
+
+  <!-- سلة المشتريات -->
+  <aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات" aria-hidden="true">
+    <div class="cart-header">
+      <div>
+        <p class="section-label">سلة المشتريات</p>
+        <h2>طلبك <span>الحالي</span></h2>
+      </div>
+      <button class="icon-btn close-btn" id="closeCart" aria-label="إغلاق السلة">✕</button>
+    </div>
+    <div class="cart-body" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>المجموع الفرعي</span>
+        <strong id="cartTotal">0 ر.س</strong>
+      </div>
+      <p class="cart-note">الشحن يُحسب عند إتمام الطلب</p>
+      <button class="btn btn-gold btn-block" id="checkoutBtn" disabled>إتمام الطلب <span>←</span></button>
+      <button class="btn btn-text btn-block" id="clearCart">تفريغ السلة</button>
+    </div>
+  </aside>
+
+  <!-- نافذة عرض المنتج -->
+  <div class="modal" id="quickView" hidden>
+    <div class="modal-card quick-card" role="dialog" aria-modal="true" aria-label="تفاصيل المنتج">
+      <button class="icon-btn close-btn modal-close" aria-label="إغلاق">✕</button>
+      <div class="quick-image">
+        <div class="img-fallback" id="quickFallback">✦</div>
+        <img id="quickImg" src="" alt="" />
+      </div>
+      <div class="quick-info">
+        <p class="product-category" id="quickCategory"></p>
+        <h2 id="quickName"></h2>
+        <p class="quick-desc" id="quickDesc"></p>
+        <div class="rating-line"><span class="stars">★★★★★</span><span id="quickRating"></span></div>
+        <div class="price-line" id="quickPrice"></div>
+        <ul class="features-list">
+          <li>✦ منتج أصلي بضمان رسمي</li>
+          <li>✦ تغليف فاخر هدايا مناسب</li>
+          <li>✦ توصيل سريع لجميع المدن</li>
+        </ul>
+        <button class="btn btn-gold btn-block" id="quickAdd">أضف إلى السلة <span>←</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- نافذة إتمام الطلب -->
+  <div class="modal" id="checkoutModal" hidden>
+    <div class="modal-card checkout-card" role="dialog" aria-modal="true" aria-label="إتمام الطلب">
+      <button class="icon-btn close-btn modal-close" aria-label="إغلاق">✕</button>
+      <div id="checkoutFormWrap">
+        <p class="section-label">خطوة أخيرة</p>
+        <h2>أكمل بيانات <span>طلبك</span></h2>
+        <p class="checkout-summary" id="checkoutSummary"></p>
+        <form id="checkoutForm" class="checkout-form">
+          <label>الاسم الكامل<input type="text" placeholder="مثال: أحمد محمد" required /></label>
+          <label>رقم الجوال<input type="tel" placeholder="05xxxxxxxx" pattern="[0-9+\s-]{9,15}" required /></label>
+          <label>المدينة<input type="text" placeholder="مثال: الرياض" required /></label>
+          <label>العنوان التفصيلي<textarea rows="3" placeholder="الحي، الشارع، رقم المبنى" required></textarea></label>
+          <button class="btn btn-gold btn-block" type="submit">تأكيد الطلب ✦</button>
+        </form>
+      </div>
+      <div class="checkout-success" id="checkoutSuccess" hidden>
+        <div class="success-icon">✓</div>
+        <h2>تم استلام طلبك بنجاح!</h2>
+        <p>شكراً لتسوّقك من وسيم ابودقة. سنتواصل معك قريباً لتأكيد التوصيل.</p>
+        <button class="btn btn-outline btn-block modal-close" type="button">متابعة التسوق</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- إشعار -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
